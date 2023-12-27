@@ -31,7 +31,7 @@ public class Employee_1 {
         this.department = department;
     }
 
-    public void setSalary(int salary) {
+    public void setSalary(double salary) {
         this.salary = salary;
     }
 
@@ -95,5 +95,6 @@ public class Employee_1 {
     public int hashCode() {
         return Objects.hash(id);
     }
+
 }
 
